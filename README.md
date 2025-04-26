@@ -1,0 +1,2 @@
+# sanchotube
+SALOM SAYTGA HUSH KELIBSIZ
