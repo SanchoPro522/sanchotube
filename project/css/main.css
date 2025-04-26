@@ -1,0 +1,9 @@
+/* Katta Yozuv Uchun Tekst */
+h1 {
+    color: blue;
+}
+
+/*kichik yozuv uchun tekst*/
+[disabled] {
+    color: gray;
+}

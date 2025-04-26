@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SanchoTube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="SanchoTube Logo" class="logo">
+    </div>
+    <div class="nav-center">
+      <input type="text" id="search-input" placeholder="Qidirish..." oninput="searchVideos()">
+    </div>
+    <div class="nav-right">
+      <button class="login-btn">Login</button>
+    </div>
+  </nav>
+
+  <!-- Video section -->
+  <main>
+    <div class="video-container"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
